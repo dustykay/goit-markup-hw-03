@@ -59,7 +59,7 @@ ul {
   text-decoration: none;
   color: #4d5ae5;
   display: inline-block;
-
+  margin-bottom: 16px;
   margin-right: 76px;
 }
 
@@ -323,6 +323,5 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
 /* #endregion footer */
