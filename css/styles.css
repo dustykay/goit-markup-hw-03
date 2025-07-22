@@ -58,6 +58,8 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  display: inline-block;
+
   margin-right: 76px;
 }
 
@@ -83,7 +85,7 @@ ul {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
-  display: flex;
+  display: block;
   gap: 40px;
 }
 
@@ -94,12 +96,12 @@ ul {
 
 .address {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .address-item {
@@ -321,5 +323,6 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
 /* #endregion footer */
